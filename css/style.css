@@ -47,12 +47,18 @@ section {
     border: solid 2px #9F37F0;
     color: white;
 }
-.productos{
-    padding: 16px;
-    border: solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+.productos { 
+    width:25rem;
+    margin-top: 20px; 
 }
+.caja-articulo img{
+    box-shadow: 2px 2px 4px  #f1bbd5;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+    
+    }
 
 .secciones {
     padding: 16px;
