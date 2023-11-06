@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Nosotros</title>
 </head>
 
@@ -48,8 +49,9 @@
                 </div>
                 <div class="d-none d-xl-block">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2 d-inline" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-morado d-inline" type="submit">Buscar</button>
+                        <input class="form-control me-2 d-inline" type="search" placeholder="buscar"
+                            aria-label="Search">
+                        <button class="boton d-inline" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -58,37 +60,58 @@
     </header>
 
     <main>
-        <section class="secciones">
-            <article>
-                <h2>Sobre Nosotros</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam repellat qui quibusdam, blanditiis
-                    reprehenderit itaque enim, libero alias magni quaerat et, maxime impedit voluptates! Mollitia
-                    asperiores
-                    dicta ex placeat corrupti!</p>
+        <section class="section">
+            <div class="container">
+                <article class="row d-flex justify-content-center align-items-center  text-center">
+                    <div class="col-12 d-flex justify-content-center justify-content-md-start">
+                        <h2>Misión</h2>
+                    </div>
+                    <div class="col-12 col-md-8 d-md-flex  align-items-center">
+                        <p>
+                            Nuestra misión es proporcionar a las mujeres un acceso fácil y conveniente
+                            a una amplia gama de ropa de moda que refleje su estilo y personalidad únicos. Nos
+                            comprometemos a ofrecer productos de alta calidad, diseñados para realzar la confianza y la
+                            belleza de cada mujer. Nos esforzamos por brindar un servicio al cliente excepcional, con
+                            envíos rápidos, opciones de pago seguras y un equipo amable y atento listo para ayudar en
+                            cada paso del proceso de compra. Buscamos ser una fuente confiable de inspiración y
+                            asesoramiento de moda, manteniéndonos al tanto de las últimas tendencias y ofreciendo
+                            contenido relevante a través de nuestras plataformas digitales.
+                        </p>
+                    </div>
+            </div>
             </article>
-            <article>
-                <h2>Misión</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam repellat qui quibusdam, blanditiis
-                    reprehenderit itaque enim, libero alias magni quaerat et, maxime impedit voluptates! Mollitia
-                    asperiores
-                    dicta ex placeat corrupti!</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <article class="row d-flex justify-content-center align-items-center  text-center">
+                    <div class="col-12 d-flex justify-content-center justify-content-md-start">
+                        <h2>Visión</h2>
+                    </div>
+                    <div class="col-12 col-md-8 d-md-flex  align-items-center">
+                        <p>
+                            Ser la tienda online líder en moda femenina, ofreciendo una amplia selección de prendas de
+                            alta calidad y tendencia, brindando una experiencia de compra excepcional y empoderando a
+                            las mujeres a expresarse a través de la moda
+                        </p>
+                    </div>
+            </div>
             </article>
-            <article>
-                <h2>Visión</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam repellat qui quibusdam, blanditiis
-                    reprehenderit itaque enim, libero alias magni quaerat et, maxime impedit voluptates! Mollitia
-                    asperiores
-                    dicta ex placeat corrupti!</p>
-            </article>
+            </div>
         </section>
 
         <section class="secciones">
-            <div>
-                <h2>Ubicación</h2>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7846.076859208979!2d-66.81040707516999!3d10.497636797193513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sve!4v1695407990060!5m2!1ses-419!2sve"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-12 col-sm-12 d-flex flex-column ">
+                <div class="d-flex justify-content-center">
+                    <h2>Ubicacion</h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7846.076859208979!2d-66.81040707516999!3d10.497636797193513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sve!4v1695407990060!5m2!1ses-419!2sve"
+                        width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
     </main>
@@ -128,8 +151,12 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

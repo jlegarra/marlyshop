@@ -1,8 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 
+ul,
+ol {
+  list-style: none;
+}
 
+a {
+  text-decoration: none;
+}
 
+.secciones {
+  padding: 16px;
+  border: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.boton {
+  position: relative;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+  background-color: #B08AF0;
+}
+.boton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.boton:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.boton::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+.boton::after {
+  background-color: #9F37F0;
+}
+.boton:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
 
+.productos {
+  width: 25rem;
+  margin-top: 20px;
+}
 
+.caja-articulo img {
+  box-shadow: 2px 2px 4px #f1bbd5;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 0px 5px 0px;
+}
 
+.caja {
+  box-sizing: border-box;
+  width: 22rem;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  margin-top: 20px;
+}
+
+.caja:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.caja:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+footer {
+  background-color: #f1bbd5;
+  padding: 15px;
+}
+
+header nav {
+  background-color: #f1bbd5;
+  padding: 15px;
+}
+
+/* .banner_principal {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/bannerprincipal.png) ;
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+h2 {
+  padding: 16px;
+}
+
+section {
+  padding: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
